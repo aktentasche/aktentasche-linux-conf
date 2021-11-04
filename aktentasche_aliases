@@ -1,0 +1,25 @@
+source ~/.complete-alias
+
+complete -F _complete_alias sssstatuss
+complete -F _complete_alias ssrestart
+complete -F _complete_alias sstop
+complete -F _complete_alias sstart
+complete -F _complete_alias senable
+complete -F _complete_alias sdisable
+
+alias lll="ls -lah"
+alias ll="ls -lh"
+alias svim="sudo vim"
+alias sbim="sudo vim"
+alias bim="vim"
+alias vim="vim -u ~/.aktentasche_vimrc"
+alias hgrep="history | grep"
+alias sapti="sudo apt install"
+alias sstatus="sudo systemctl status"
+alias ssrestart="sudo systemctl restart"
+alias sstop="sudo systemctl stop"
+alias sstart="sudo systemctl start"
+alias senable="sudo systemctl enable"
+alias sdisable="sudo systemctl disable"
+alias openports="sudo lsof -i -P -n | grep LISTEN"
+alias isportopen="nc -zvw10"
