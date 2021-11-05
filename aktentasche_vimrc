@@ -1,6 +1,9 @@
 " Necesary for lots of cool vim things
 set nocompatible
 
+" enable backspacke because of nocompat
+set backspace=indent,eol,start
+
 " Enable type file detection. Vim will be able to try to detect the type of file in use.
 filetype on
 
