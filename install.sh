@@ -4,7 +4,7 @@
 # it is required for the complete-alias
 wget https://raw.githubusercontent.com/cykerway/complete-alias/master/complete_alias -O ~/.complete-alias
 
-cp  aktentasche_aliases ~/.aktentasche_aliases
+cp  ~/.aktentasche-linux-conf/aktentasche_aliases ~/.aktentasche_aliases
 echo "source ~/.aktentasche_aliases" >> ~/.bashrc
 
-cp  aktentasche_vimrc ~/.aktentasche_vimrc
+cp  ~/.aktentasche-linux-conf/aktentasche_vimrc ~/.aktentasche_vimrc
