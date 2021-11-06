@@ -10,16 +10,17 @@ filetype on
 " Enable plugins and load plugin for the detected file type.
 filetype plugin on
 
-" Load an indent file for the detected file type.
-" filetype indent on
-
 " Turn syntax highlighting on.
 syntax on
 
-" Highlight cursor line underneath the cursor horizontally.
-set cursorline
+" absolute line number
+set number
 
-" Highlight cursor line underneath the cursor vertically.
-" set cursorcolumn
-
+" relative line number
 set relativenumber
+
+" distance for relative numbers from left border
+set numberwidth=3
+
+" New lines inherit the indentation of previous lines.
+set autoindent 
