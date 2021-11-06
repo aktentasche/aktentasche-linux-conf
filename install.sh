@@ -11,3 +11,5 @@ cp  ~/.aktentasche-linux-conf/aktentasche_vimrc ~/.aktentasche_vimrc
 
 rm -rf ~/.vim/pack/dist/start/vim-airline
 git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+
+source ~/.bashrc
