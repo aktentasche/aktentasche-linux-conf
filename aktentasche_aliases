@@ -12,7 +12,7 @@ alias sudo='sudo '
 alias vim="vim -u ~/.aktentasche_vimrc"
 
 alias lll="ls -lah"
-alias ll="ls -lh"
+alias ll="ls -lhtr"
 alias svim="sudo -E vim"
 alias hgrep="history | grep"
 alias sapti="sudo apt install"
